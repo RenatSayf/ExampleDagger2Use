@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExampleDagger2Use</string>
+    <string name="text_to_display">This text displayed by Dagger</string>
+</resources>
