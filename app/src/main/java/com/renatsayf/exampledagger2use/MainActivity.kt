@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity()
         App(this).appComponent.inject(this) //TODO Шаг 7: Инъекция... Тадааам... Уф!!!
 
         btnPassContext.setOnClickListener {
-            textView.text = myClass.message //Пользуемся...
+            textView.text = myClass.text //Пользуемся...
         }
 
     }
