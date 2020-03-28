@@ -1,6 +1,5 @@
 package com.renatsayf.exampledagger2use.di.modules
 
-import android.content.Context
 import com.renatsayf.exampledagger2use.MyClass
 import dagger.Module
 import dagger.Provides
