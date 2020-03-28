@@ -7,7 +7,7 @@ import com.renatsayf.exampledagger2use.di.modules.MyClassModule
 import dagger.Component
 import javax.inject.Singleton
 
-//TODO Шаг 4: Создаем интерфейс AppComponent
+//TODO Шаг 3: Создаем интерфейс AppComponent
 @Singleton
 @Component(modules = [MyClassModule::class, MessageModule::class])
 interface AppComponent

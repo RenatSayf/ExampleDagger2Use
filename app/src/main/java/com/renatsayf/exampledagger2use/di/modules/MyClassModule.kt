@@ -7,14 +7,14 @@ import dagger.Provides
 import javax.inject.Inject
 import javax.inject.Singleton
 
-//TODO Шаг 2: Создаем модуль класса с конструктором который принимает контекст в качестве параметра
+
 @Module
-class MyClassModule @Inject constructor(private val context: Context)
+class MyClassModule @Inject constructor()
 {
     @Singleton
     @Provides
     fun provideMyClass() : MyClass
     {
-        return MyClass(context)
+        return MyClass()
     }
 }
